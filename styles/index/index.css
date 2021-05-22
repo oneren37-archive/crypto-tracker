@@ -87,4 +87,34 @@ ul {
   margin-right: 10px;
 }
 
+.coin-list {
+  margin-top: 30px;
+}
+.coin-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #01B075;
+  padding: 15px 0;
+}
+.coin-list-item > * {
+  display: flex;
+  align-items: center;
+}
+.coin-list-item__title {
+  display: flex;
+  align-items: center;
+}
+.coin-list-item__title > * {
+  margin: 5px;
+}
+.coin-list-item__title img {
+  width: 30px;
+}
+.coin-list-item__title span {
+  font-size: 14px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
 /*# sourceMappingURL=index.css.map */

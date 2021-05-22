@@ -1,0 +1,35 @@
+
+.coin-list {
+  margin-top: 30px;
+  &-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid $green;
+    padding: 15px 0;
+
+    & > * {
+      display: flex;
+      align-items: center;
+    }
+
+    &__title {
+      display: flex;
+      align-items: center;
+
+      & > * {
+        margin: 5px;
+      }
+
+      & img {
+        width: 30px;
+      }
+
+      & span {
+        font-size: 14px;
+        padding: 5px;
+        background-color: rgba(#FFF, 0.1);
+        border-radius: 2px;
+      }
+    }
+  }
+}
