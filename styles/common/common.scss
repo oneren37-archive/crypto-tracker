@@ -80,3 +80,14 @@ a {
   }
 }
 
+
+input[type="text"] {
+  border: 1px solid rgba(#FFF, 0.3);
+  background-color: rgba(#FFF, 0.2);
+  border-radius: 100px;
+  padding: 6px 10px;
+}
+
+ul {
+  list-style: none;
+}

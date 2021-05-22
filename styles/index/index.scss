@@ -1,0 +1,18 @@
+@import "../common/common.scss";
+
+.header {
+  &-wrapper {
+    border-bottom: 1px solid $green;
+  }
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-search {
+    & i {
+      margin-right: 10px;
+    }
+  }
+}
