@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Crypto Tracker</title>
 
     <link rel="stylesheet" href="./styles/index/index.css">
@@ -21,57 +22,144 @@
                         >
                     </label>
                 </li>
-
             </ul>
         </div>
     </header>
 
     <main class="container">
-        <ul class="coin-list">
-            <li class="coin-list-item">
-                <h4>Title</h4>
-                <h4>Cost</h4>
-                <h4>24h change</h4>
-                <h4>Market cap</h4>
-            </li>
-            <li class="coin-list-item">
-                <div class="coin-list-item__title">
-                    <div class="coin-list-item__favourite"><i class="far fa-star"></i></div>
-                    <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
-                    <h4>Bitcoin</h4>
-                    <span>BTC</span>
-                </div>
-                <div class="coin-list-item__price">$41,645.32</div>
-                <div class="coin-list-item__24h">34%</div>
-                <div class="coin-list-item__marketcap">$87,935,345.76</div>
-
-            </li>
-
-            <li class="coin-list-item">
-                <div class="coin-list-item__title">
-                    <div class="coin-list-item__favourite"><i class="far fa-star"></i></div>
-                    <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
-                    <h4>Bitcoin</h4>
-                    <span>BTC</span>
-                </div>
-                <div class="coin-list-item__price">$41</div>
-                <div class="coin-list-item__24h">34%</div>
-                <div class="coin-list-item__marketcap">$87,935,345.76</div>
-
-            </li>
-            <li class="coin-list-item">
-                <div class="coin-list-item__title">
-                    <div class="coin-list-item__favourite"><i class="far fa-star"></i></div>
-                    <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
-                    <h4>Bitcoin</h4>
-                    <span>BTC</span>
-                </div>
-                <div class="coin-list-item__price">$41,645.32</div>
-                <div class="coin-list-item__24h">34%</div>
-                <div class="coin-list-item__marketcap">$87,935,345.76</div>
-
-            </li>
-        </ul>
+        <div class="coins-table-wrapper">
+            <table class="coins-table">
+                <thead>
+                <tr>
+                    <th class="coins-table-fix-col"><h4>Coin</h4></th>
+                    <th><h4>Cost</h4></th>
+                    <th><h4>24h%</h4></th>
+                    <th><h4>Market cap</h4></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coins-table-title coins-table-fix-col">
+                        <div class="coins-table-title__favourite"><i class="far fa-star"></i></div>
+                        <img class="coins-table-title__img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" alt="">
+                        <h4 class="coins-table-title__title">Bitcoin</h4>
+                        <span class="coins-table-title__tag">BTC</span>
+                    </td>
+                    <td class="coins-table-cost">
+                        $41,645.32
+                    </td>
+                    <td class="coins-table-24h">
+                        34%
+                    </td>
+                    <td class="coins-table-cap">
+                        $87,935,345.76
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <script src="https://kit.fontawesome.com/477f87a565.js" crossorigin="anonymous"></script>
