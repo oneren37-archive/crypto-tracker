@@ -107,20 +107,56 @@ ul {
   list-style: none;
 }
 
-.headers {
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-wrapper {
+  border-bottom: 1px solid #01B075;
+}
+.header-search i {
+  margin-right: 10px;
+}
+
+.coins-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.coins-table-wrapper {
+  overflow-x: scroll;
   margin: 30px 0;
 }
-
-p {
-  margin: 30px 0;
+.coins-table-fix-col {
+  position: sticky;
+  left: 0;
+  background-color: #16171B;
+  text-align: left !important;
+}
+.coins-table tr {
+  border-bottom: 1px solid #01B075;
+}
+.coins-table th, .coins-table td {
+  height: 50px;
+  text-align: right;
+  padding: 0 15px;
+}
+.coins-table-title {
+  display: flex;
+  align-items: center;
+}
+.coins-table-title > * {
+  margin: 5px;
+}
+.coins-table-title__img {
+  width: 30px;
+}
+.coins-table-title__tag {
+  font-size: 14px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
 }
 
-a {
-  display: block;
-}
-
-button {
-  margin: 10px 0;
-}
-
-/*# sourceMappingURL=typography.css.map */
+/*# sourceMappingURL=index.css.map */
