@@ -154,4 +154,10 @@ ul {
   border-radius: 2px;
 }
 
+@media (max-width: 460px) {
+  .coins-table-fix-col {
+    position: relative;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
