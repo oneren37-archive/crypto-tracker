@@ -1,0 +1,34 @@
+@import '../colors.scss';
+
+.header {
+  &-wrapper {
+    border-bottom: 1px solid $green;
+  }
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-search {
+    & .search {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .header{
+    & .logo{
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header{
+    &-search input {
+      display: none;
+    }
+  }
+}
