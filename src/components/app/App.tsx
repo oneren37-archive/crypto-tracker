@@ -1,12 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import './_colors.scss'
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
+import { IndexPage } from './index-page/IndexPage';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
-    </div>
+      <Router>
+          <Switch>
+              <Route exact path="/"><IndexPage /></Route>
+          </Switch>
+      </Router>
   );
 }
 
