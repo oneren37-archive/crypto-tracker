@@ -1,0 +1,19 @@
+.title{
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin: 5px;
+  }
+
+  &__img {
+    width: 30px;
+  }
+
+  &__tag {
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgba(#FFF, 0.1);
+    border-radius: 2px;
+  }
+}
